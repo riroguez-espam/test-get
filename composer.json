@@ -1,0 +1,21 @@
+{
+    "name": "learcode/testgit",
+    "description": "test",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Geovanny Rios",
+            "email": "info@learcode.icu"
+        }
+    ],
+    "scripts": {
+        "server": "php -S localhost:8888 -t public"
+    },
+    "config": {
+        "process-timeout": 0
+    },
+    "autoload": {
+        "App\\": "App/",
+        "Core\\": "Core/"
+    }
+}
